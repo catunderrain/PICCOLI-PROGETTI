@@ -7,6 +7,6 @@ def A(ar):
         for j in range(i+1,len(ar)):
             if ar[j] < ar[i_min]:
                 i_min = j
-        ar[i], ar[i_min] = ar[i_min], ar[i ]
+        ar[i], ar[i_min] = ar[i_min], ar[i]
     return ar
 print(A(ar))

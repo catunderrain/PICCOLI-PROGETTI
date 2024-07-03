@@ -1,7 +1,7 @@
 import random
 ar = random.sample(range(-20,20),20)
+# ar = [-18, 13, -17, 1, 19,-2, 17, 3, -1, -4, 9, -10, -7, 5, 12, 4, -9, 2, -13, -19, -14]
 print(ar)
-
 def A(ar):
     maxs = ar[0]
     i_max = 0

@@ -1,6 +1,6 @@
 
 def Dirty():
-    Q =list('bachkhoa'); C ="bcdfghjklmnpqrstvwxz"; V ="aeiouy"; Cr = {}; Vr = {}
+    Q =list('bach khoa'); C ="bcdfghjklmnpqrstvwxz"; V ="aeiouy"; Cr = {}; Vr = {}
     for i in range(len(Q)):
         for tx in range(len(Q)-i):
             if Q[tx] in C: re = ''.join(Q[tx:tx+i+1]).upper(); Cr[re] = Cr[re] + 1 if re in Cr else 1

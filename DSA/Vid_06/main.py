@@ -11,11 +11,9 @@ def A(ar):
     return ar
 
 def insertion_sort(arr):
-    # Duyệt qua từng phần tử trong mảng (bắt đầu từ phần tử thứ hai)
     for i in range(1, len(arr)):
         key = arr[i]
         j = i - 1
-        # Di chuyển các phần tử của arr[0..i-1], lớn hơn key, sang vị trí tiếp theo phía trước chúng
         while j >= 0 and key < arr[j]:
             arr[j + 1] = arr[j]
             j -= 1
