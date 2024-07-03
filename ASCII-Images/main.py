@@ -1,5 +1,4 @@
 import matplotlib.image as image
-from gcpaths import *
 import numpy as np
 
 
@@ -107,8 +106,8 @@ def show(img, shap):
 
 def main():
     print('WELCOME!')
-    user = input('Your file to show: ')
-    img = image.imread(f'{patha}\\samples\\photos\\{user}')
+    img = r"C:\Users\Lenovo\Desktop\2b87a08ae4c732996bd6.jpg"
+    img = image.imread(img)
     shap = img.shape
     show(img, shap)
 

@@ -1,0 +1,18 @@
+H 3 i j k
+	H 2 i k j
+		H 1 i j k
+			_p1 i>>j
+		_p2 i>>k
+		H 1 j k i
+			_p1 j>>k
+	_p3 i>>j
+	H 2 k j i
+		H1 k i j
+			_p1 k>>i
+		_p2 k>>j
+		H1 i j k
+			_p1 i>>j
+
+
+		
+	
