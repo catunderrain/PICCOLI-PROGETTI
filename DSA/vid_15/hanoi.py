@@ -1,16 +1,17 @@
 
 count = 0
+r = 5
 
 def hanoi(n, i, j, k):
-    global count
+    global count, r
     c = ['A', 'B', 'C']
     if n == 1:
         count += 1
-        print(f'Step {count}{(5-len(str(count)))*' '}plate {n}: {c[i]} > {c[j]}')
+        print(f'Step {count}{(r-len(str(count)))*' '}plate {n}: {c[i]} > {c[j]}')
     else:
         hanoi(n-1, i, k, j)
         count += 1
-        print(f'Step {count}{(5-len(str(count)))*' '}plate {n}: {c[i]} > {c[j]}')
+        print(f'Step {count}{(r-len(str(count)))*' '}plate {n}: {c[i]} > {c[j]}')
         hanoi(n-1, k, j, i)
         
 hanoi(3,0,2,1)
