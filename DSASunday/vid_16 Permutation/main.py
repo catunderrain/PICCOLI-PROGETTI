@@ -15,7 +15,6 @@ from termcolor import colored
 color = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white']
 
 
-
 def Tinhhoanvi(chuoi, k): 
     global color
     k = (k+1)
@@ -43,8 +42,8 @@ if __name__ == '__main__':
 
     import numpy as np
     r = 5
-    print('Results table'.center(30))
-    print('-'*30)
+    print(colored('Results table'.center(30), attrs=['bold']))
+    print(colored(f'{'-'*30}', attrs=['bold']))
     for i, hoanvi in enumerate(allhoanvi):
         print(colored(f'{i+1}{(r-len(str(i+1)))*' '} {np.array(hoanvi)}'.center(30), attrs=['bold']))
         pass
