@@ -35,5 +35,4 @@ def main():
     armd = [-1 if (arm[i+1] - arm[i]) < 0 else 0 for i in range(len(arm)-1)]
     print(armd)
     
-import cProfile
-cProfile.run('main()')
+main()
