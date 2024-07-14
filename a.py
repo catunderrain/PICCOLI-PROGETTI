@@ -1,34 +1,19 @@
-
+Hi! You can try these code that I got from GPT:
+```
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image
-image_path = r"C:\Users\Lenovo\Desktop\imgimg.png"
+image_path = "/mnt/data/image.png"
 image_gray = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
+# Apply CLAHE to the grayscale image
 clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
 image_gray = clahe.apply(image_gray)
 
-kernel = np.ones((3,3),np.uint8)
-kernel1 = np.array([[-0, -2, -0],
-                    [-2,9,-2],
-                    [-0,-2,-0]])
-
-img3 = cv2.convertScaleAbs(image_gray, alpha=2, beta=0)
-img32 = cv2.filter2D(src=img3, ddepth=-1, kernel=kernel1)
-img32 = cv2.morphologyEx(img32,cv2.MORPH_OPEN, kernel)
-# img32 = cv2.morphologyEx(img32,cv2.MORPH_OPEN, kernel)
-# img32 = cv2.morphologyEx(img32,cv2.MORPH_OPEN, kernel)
-# img32 = cv2.morphologyEx(img32,cv2.MORPH_OPEN, kernel)
-
-plt.subplot(1,3,1); plt.imshow(image_gray, cmap='gray')
-plt.subplot(1,3,2); plt.imshow(img3, cmap='gray')
-plt.subplot(1,3,3); plt.imshow(img32, cmap='gray')
-plt.show()
-image_gray = img32
 # Threshold the image to create a binary image
-_, binary = cv2.threshold(image_gray, 125, 255, cv2.THRESH_BINARY)
+_, binary = cv2.threshold(image_gray, 128, 255, cv2.THRESH_BINARY)
 
 # Find contours in the binary image
 contours, _ = cv2.findContours(binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
@@ -69,3 +54,16 @@ if len(largest_contour) >= 5:
         plt.show()
 else:
     print("No valid ellipse found in the largest contour")
+```
+In this code, we:
+- Loads the image from the specified path.
+- Applies CLAHE to enhance the contrast of the grayscale image.
+- Converts the enhanced image to a binary image using thresholding.
+- Finds all contours in the binary image.
+- Identifies the largest contour based on the area.
+- Fits an ellipse to the largest contour if it contains at least 5 points.
+- Draws the fitted ellipse on the original image.
+- Calculates and prints the parameters of the ellipse.
+- Displays the original image, binary image, and the result image with the ellipse using matplotlib.
+
+I hope this help you out and GL bro.

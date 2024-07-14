@@ -34,4 +34,3 @@ arm = MergeSort(ar, 0, len(ar)-1)
 print(arm)
 armd = [-1 if (arm[i+1] - arm[i]) < 0 else 0 for i in range(len(arm)-1)]
 print(armd)
-    
