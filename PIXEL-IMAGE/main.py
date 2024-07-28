@@ -18,7 +18,7 @@ def make_pixel(img, SIZE=32):
     img_mid = cv2.resize(img, (0,0), fx=r, fy=r)
     # resize_shape = img_mid.shape; cv2.imshow(f'{resize_shape}', img_mid); cv2.waitKey(0)
 
-    img_up = cv2.resize(img_mid, (0,0), fx=1/r, fy=1/r, interpolation=cv2.INTER_AREA)
+    img_up = cv2.resize(img_mid, (0,0), fx=4/r, fy=4/r, interpolation=cv2.INTER_AREA)
     # cv2.imshow(f'UP {resize_shape, base_shape}', img_up); cv2.waitKey(0)
     
     return img_up
@@ -38,6 +38,7 @@ def make_loaves(imgin):
 
 if __name__ == "__main__":
     img_maked = make_pixel(img, SIZE)
+    print(img_maked.shape)
     # img_maked = make_loaves(img_maked)
     print(DIR + '\\re' + IMG)
     # cv2.imshow(f'{SIZE, img_maked.shape}', img_maked)
