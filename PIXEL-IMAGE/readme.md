@@ -1,5 +1,9 @@
 # MAKE PIXEL IMAGE
+    A small project for my hobby
+---
+![](image.png)
 
+---
 ### Fix IMG to name of input image. Image be in your current python file's folder
 ```py
 import numpy as np

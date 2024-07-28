@@ -3,17 +3,18 @@ import cv2
 import os
 DIR = os.path.dirname(os.path.realpath(__file__))
 IMG = '\\' + 'sam2.jpg'
-img = cv2.imread(DIR + IMG)
-SIZE = 32
+PATH = DIR + IMG
+PATH = r"C:\Users\Lenovo\Downloads\girlred.jpg"
+img = cv2.imread(PATH)
+SIZE = 100
 
 
 def make_pixel(img, SIZE=32):
-    base_shape = img.shape
+    base_shape = img.shape  
+    print(base_shape)
     # cv2.imshow(f'{base_shape}', img); cv2.waitKey(0)
 
-    if base_shape[0] >= base_shape[1]:
-        print(base_shape)
-        r = 1/(base_shape[1]/SIZE)
+    r = round(1/(base_shape[1]/SIZE), 1)
     img_mid = cv2.resize(img, (0,0), fx=r, fy=r)
     # resize_shape = img_mid.shape; cv2.imshow(f'{resize_shape}', img_mid); cv2.waitKey(0)
 
@@ -39,7 +40,7 @@ if __name__ == "__main__":
     img_maked = make_pixel(img, SIZE)
     # img_maked = make_loaves(img_maked)
     print(DIR + '\\re' + IMG)
-    cv2.imshow(f'{SIZE, img_maked.shape}', img_maked)
-    cv2.waitKey(0)
+    # cv2.imshow(f'{SIZE, img_maked.shape}', img_maked)
+    # cv2.waitKey(0)
     cv2.imwrite(DIR + '\\re.png', img_maked)
     
