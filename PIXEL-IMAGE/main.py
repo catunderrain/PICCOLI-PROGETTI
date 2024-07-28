@@ -2,9 +2,9 @@ import numpy as np
 import cv2
 import os
 DIR = os.path.dirname(os.path.realpath(__file__))
-IMG = '\\' + 'sam2.jpg'
+IMG = '\\' + 'guardian.jpg'
 PATH = DIR + IMG
-PATH = r"C:\Users\Lenovo\Downloads\girlred.jpg"
+# PATH = r"C:\Users\Lenovo\Downloads\girlred.jpg"
 img = cv2.imread(PATH)
 SIZE = 100
 
