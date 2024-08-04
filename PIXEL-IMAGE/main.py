@@ -4,7 +4,7 @@ import os
 DIR = os.path.dirname(os.path.realpath(__file__))
 IMG = '\\' + 'guardian.jpg'
 PATH = DIR + IMG
-PATH = r"C:\Users\Lenovo\Downloads\ichigo-kurosaki-3840x3840-11301.jpg"
+PATH = r"C:\Users\Lenovo\Desktop\ichigo.jpg"
 img = cv2.imread(PATH)
 SIZE = 160
 
@@ -20,7 +20,7 @@ def make_pixel(img, SIZE=32):
         print(1, base_shape[1])
         r = round(1/(base_shape[1]/SIZE), 1)
     print(r)
-    r = 0.026
+    r = 0.1
     img_mid1 = cv2.resize(img, (0,0), fx=r, fy=r)
     # img_mid2 = cv2.resize(img, (0,0), fx=r, fy=r, interpolation=cv2.INTER_NEAREST)
     img_mid = img_mid1
