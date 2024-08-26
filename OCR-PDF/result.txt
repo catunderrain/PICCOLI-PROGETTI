@@ -1,0 +1,107 @@
+page_1.png:
+Nhận xét PTNT - DATN
+
+August 2024
+
+Nguyễn Xuân Hiển - 2013187
+TTNT
+
+e Mục lục: 2. Nội dung thực tập: 2.1.1 Yêu cầu kỹ thuật cho mạch: Thừa
+dấu ˆ:° cuối dòng.
+
+e I. Giới thiệu: 1.1 Giới thiệu về công ty: Thừa dấu '.' (thống nhất có để
+'' ở cuối đề mục hay không trong suốt báo cáo).
+
+e Trang 5: Tuần 6: Thừa dấu ˆ.' sau PNP/NPN.
+e Trang 12: 2.2.1: Dư dấu ':'. - 2.2.1.1: Dư”.' và °:'.
+e Bảng 4: Chú ý căn đều các ô.
+
+e Chú ý tách bạch phần Kinh nghiệm học được ra khỏi phần Kết quả công
+việc thực tập, hoặc gộp 2 phần làm 1.
+
+e Trích dẫn tham khảo cho website đúng cách: https:/ /trithuccongdong.net /cam-
+nang-luan-van /cach-trinh-bay-tai-lieu-tham-khao-va-trich-dan-trong-bai-luan.html.
+
+Nhận xét chung:
+e Bố cục và công việc hoàn thành tốt.
+
+)
+
+e Cần chú ý một số lỗi cú pháp, không nên đặt dấu '.` cuối đề mục, chú ý
+
+trích dẫn tham khảo đúng cách.
+Bùi Phú Quý - 2114591
+'TTNT
+e Tên đề tài ở header có thể không cần thiết.
+e Trang 3, 5, 12,...: Chú ý sang trang các đề mục để đảm bảo thẩm mỹ.
+e 2.5.3: Hình 2.8 lỗi '*X////....
+
+================================================================================
+page_2.png:
+Trang 9: Các đề mục con không cần thụt lề so với đề mục cha, vì dễ gây
+xấu phần trình bày.
+
+3.3.1: Không nên để tham chiếu tại đề mục, nên viết một câu để dẫn dắt.
+
+Nhận xét chung:
+
+Chú ý ngắt trang ngắt đoạn sao cho thấm mỹ và hợp lý.
+
+Nếu được thì ảnh tham khảo nên rõ thêm, các ảnh có rìa trắng lẫn với
+background nên được viền đen.
+
+Phần kết luận có thể viết thành một đoạn văn, nếu liệt kê thì nên trình
+bày theo dạng gạch đầu dòng và có câu tổng quát.
+
+Đặng Thái Dương - 2011051, Dương Hoài Thương - 2012177
+DATN - Robot thu hồi bóng ứng dụng XLA
+
+Đổi Luận văn TN thành Đồ án TN (Theo chương trình).
+
+Chú ý ngày hoàn thành nhiệm vụ, thời gian tại tờ Nhiệm vụ LVTN, cố
+gắng thu chữ để phần dành cho khoa, bộ môn chung 1 trang tờ Nhiệm vụ.
+
+Tại lời cảm ơn: Nên sửa “chúng tôi thành ˆchúng em” (Ö lời cam đoan thì
+để 'chúng tôi” được).
+
+Phần tóm tắt: Câu 'ngày nay,...' nên để vào phần Giới thiệu hoặc dẫn
+
+nhập ngắn gọn hơn. Phần tóm tắt nên gói gọn đồ án làm những gì, mục
+tiêu, cấu trúc, phương pháp, ...
+
+Mục 1.1: Sau golf, hoàn thiện dấu '...'.
+Trang 2: ...mô tả như sau, thêm dấu ':`, chú ý dấu '...` trong trang này.
+Trang 10: Tab câu 'Một số loại...` sang trang mới cùng ảnh.
+
+Trang 12: Khuyết điểm, thêm dấu ˆ:, tab 'Ưu điểm' cuối trang sang
+trang mới (chú ý sửa trên toàn bộ tài liệu).
+
+Hình 2-7: Sửa lại khung cho 'Hệ quyết định'.
+
+Trang 38: Trong bảng, chữ nên được căn giữa theo cả chiều dọc.
+3.1.3: ...cơ cấu lồng sóc, nên thêm ”:”, và các mục bên dưới tương tự.
+Hình 3-9: Nên viền hình sơ đồ kết nối hệ thống lại.
+
+Sang trang chỉ mục 3.1.7.
+
+Trang 66: Cuối trang thiếu '.'.
+
+================================================================================
+page_3.png:
+e 4.1: Nên viết tóm tắt các ý càng gọn càng tốt, chú ý thụt lề hợp lý và
+thẩm mỹ hơn.
+
+e Phụ lục A: Code nên để font Consolas hoặc Courier, và có thể đóng khung
+phần code, có thể chỉnh sửa khoảng cách giữa 2 dòng hẹp lại một chút.
+
+e Phụ lục A.2: Sửa lại câu dẫn nhập súc tích hơn một chút.
+
+e Tài liệu tham khảo: [12]: Thiếu `.'.
+
+Nhận xét chung:
+
+e Trình bày tốt, chú ý dấu câu, chú ý thụt lề của những đoạn văn con.
+
+e Nên viền đen cho những ảnh có rìa trắng.
+
+================================================================================
